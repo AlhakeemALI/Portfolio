@@ -573,6 +573,10 @@ transform: rotateY(0);
   flex-direction: column;
 }
 
+.form-wrapper {
+  margin: 0 1rem;
+}
+
 .contact-form-input {
   width: 60rem;
   padding: 0.5rem;
@@ -832,5 +836,8 @@ height: 200%;
 
 .form-heading {
   font-size: 5rem;
+}
+.section-5-heading {
+  left: .5rem;
 }
  }

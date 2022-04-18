@@ -33,45 +33,45 @@ menuIcon.addEventListener("click", () => {
 const circles = document.querySelectorAll(".circle");
 const mainImg = document.querySelector(".main-circle img");
 
-const animatCircles = (e, x, y) => {
-  if (x < mX) {
-    circles.forEach((circle) => {
-      circle.style.left = `${z}px`;
-    });
-    mainImg.style.left = `${z}px`;
-  } else if (x > mX) {
-    circles.forEach((circle) => {
-      circle.style.left = `-${z}px`;
-    });
-    mainImg.style.left = `-${z}px`;
-  }
+// const animatCircles = (e, x, y) => {
+//   if (x < mX) {
+//     circles.forEach((circle) => {
+//       circle.style.left = `${z}px`;
+//     });
+//     mainImg.style.left = `${z}px`;
+//   } else if (x > mX) {
+//     circles.forEach((circle) => {
+//       circle.style.left = `-${z}px`;
+//     });
+//     mainImg.style.left = `-${z}px`;
+//   }
 
-  if (y < mY) {
-    circles.forEach((circle) => {
-      circle.style.top = `${z}px`;
-    });
-    mainImg.style.top = `${z}px`;
-  } else if (y > mY) {
-    circles.forEach((circle) => {
-      circle.style.top = `-${z}px`;
-    });
-    mainImg.style.top = `-${z}px`;
-  }
-  mX = e.clientX;
-  mY = e.clientY;
-};
+//   if (y < mY) {
+//     circles.forEach((circle) => {
+//       circle.style.top = `${z}px`;
+//     });
+//     mainImg.style.top = `${z}px`;
+//   } else if (y > mY) {
+//     circles.forEach((circle) => {
+//       circle.style.top = `-${z}px`;
+//     });
+//     mainImg.style.top = `-${z}px`;
+//   }
+//   mX = e.clientX;
+//   mY = e.clientY;
+// };
 
-document.body.addEventListener("mousemove", (e) => {
-  let x = e.clientX;
-  let y = e.clientY;
-  mouseCirclefn(x, y);
-  animatCircles(e, x, y);
-});
+// document.body.addEventListener("mousemove", (e) => {
+//   let x = e.clientX;
+//   let y = e.clientY;
+//   mouseCirclefn(x, y);
+//   animatCircles(e, x, y);
+// });
 
-document.body.addEventListener("mouseleave", () => {
-  mouseCircle.style.opacity = "0";
-  mouseDot.style.opacity = "0";
-});
+// document.body.addEventListener("mouseleave", () => {
+//   mouseCircle.style.opacity = "0";
+//   mouseDot.style.opacity = "0";
+// });
 
 // MAIN BUTTON
 
