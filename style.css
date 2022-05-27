@@ -26,7 +26,7 @@ html{
   position: fixed;
   width: 100%;
   height: 100vh;
-  background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url(images/markus-spiske-hvSr_CVecVI-unsplash.jpg) center no-repeat;
+  background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url(images/ali_bg.jpg) center no-repeat;
   background-size: cover;
 
 }
@@ -191,7 +191,7 @@ animation:mouseDotAnim 10s infinite linear ;
 }
 
 .circle-1{
-  background: url(images/mike-newbry-1C-UpeGrgoA-unsplash.jpg) center no-repeat;
+  background: url(images/ali_bg-1.jpg) center no-repeat;
   background-size: cover;
   background-clip: content-box;
   border: 0.5rem dotted #a14b1a;
@@ -199,7 +199,7 @@ animation:mouseDotAnim 10s infinite linear ;
 }
 
 .circle-2{
-  background: url(images/daniel-jensen-tQpypKA92k8-unsplash.jpg) center no-repeat;
+  background: url(images/ali_bg-3.jpg) center no-repeat;
   background-size: cover;
   background-clip: content-box;
   border: 0.5rem dashed #ffbd07;
@@ -207,7 +207,7 @@ animation:mouseDotAnim 10s infinite linear ;
 }
 
 .circle-3{
-  background: url(images/erik-mclean-nfoRa6NHTbU-unsplash.jpg) center no-repeat;
+  background: url(images/ali_bg-4.jpg) center no-repeat;
   background-size: cover;
   background-clip: content-box;
   border: 1rem double #9b0e0e;
@@ -215,7 +215,7 @@ animation:mouseDotAnim 10s infinite linear ;
 }
 
 .circle-4{
-  background: url(images/kimson-doan-AZMmUy2qL6A-unsplash.jpg) center no-repeat;
+  background: url(images/ali_bg-2.jpg) center no-repeat;
   background-size: cover;
   background-clip: content-box;
   border: 0.7rem double #fff;

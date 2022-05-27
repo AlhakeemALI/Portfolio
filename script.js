@@ -96,7 +96,7 @@ mainBtns.forEach((btn) => {
 const aboutMeText = document.querySelector(".about-me-text");
 
 const aboutMeTextContent =
-  "I am a experinced Full Stack Developer passionate about problem-solving with creative solutions and a keen eye for visual aesthetics that follow good problem solving approach.";
+  "I am a Full Stack Developer with a passion for creating highly performant applications that solve real-world problems and provide users with an awesome experience.";
 
 Array.from(aboutMeTextContent).forEach((char) => {
   const span = document.createElement("span");
